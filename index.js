@@ -14,7 +14,7 @@ const generateFact = () => {
         // let thisYearsContribution = finance.CI(Math.floor(rateOfReturn*100),1,contribution,i)
         // total += thisYearsContribution
     }
-    let randomAdj = adjectives[Math.floor(Math.random()*6 + 1)]
+    let randomAdj = adjectives[Math.floor(Math.random()*5 + 1)]
 
     total = Math.floor(total + contribution)
     // factShower.innerText = `Hello there! A contribution of ${contribution} for ${years} years at ${Math.floor(rateOfReturn*100)}% will result in ${total}`
